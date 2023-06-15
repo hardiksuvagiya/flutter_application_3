@@ -11,13 +11,12 @@ class DividerDemo extends StatelessWidget {
           children: const [
             Text('hardik'),
             Divider(
-
-                // indent: 30,
-                // color: Colors.red,
-                // endIndent: 50,
-                // height: 30,
-                // thickness: 5,
-                ),
+              // indent: 30,
+              color: Colors.red,
+              // endIndent: 50,
+              // height: 30,
+              thickness: 5,
+            ),
             Text('suvagiya'),
           ],
         ),
