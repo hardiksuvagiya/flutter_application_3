@@ -11,7 +11,6 @@ class _TicTacToeDemoState extends State<TicTacUiDemo> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blueAccent,
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Column(
@@ -99,7 +98,6 @@ class _TicTacToeDemoState extends State<TicTacUiDemo> {
               flex: 1,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: const [],
               ),
             ),
             Expanded(
