@@ -68,13 +68,13 @@ class YoutubeUiDemo extends StatelessWidget {
                           padding: EdgeInsets.only(right: 500),
                           child: Icon(Icons.close),
                         ),
-                        Row(
+                        const Row(
                           children: [
-                            const CircleAvatar(
+                            CircleAvatar(
                               child: Text('H'),
                             ),
                             Column(
-                              children: const [
+                              children: [
                                 Padding(
                                   padding: EdgeInsets.only(right: 80, top: 20),
                                   child: Text('Hardik Patel'),
@@ -92,7 +92,7 @@ class YoutubeUiDemo extends StatelessWidget {
                                 ),
                               ],
                             ),
-                            const Padding(
+                            Padding(
                               padding: EdgeInsets.only(left: 100),
                               child: Icon(Icons.chevron_right),
                             ),
@@ -222,10 +222,10 @@ class YoutubeUiDemo extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
+            const Padding(
+              padding: EdgeInsets.all(8.0),
               child: Row(
-                children: const [
+                children: [
                   CircleAvatar(
                     backgroundImage: AssetImage('assest/images/6.jpeg'),
                   ),
@@ -249,10 +249,10 @@ class YoutubeUiDemo extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
+            const Padding(
+              padding: EdgeInsets.all(8.0),
               child: Row(
-                children: const [
+                children: [
                   CircleAvatar(
                     backgroundImage: AssetImage('assest/images/7.jpeg'),
                   ),
@@ -276,10 +276,10 @@ class YoutubeUiDemo extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
+            const Padding(
+              padding: EdgeInsets.all(8.0),
               child: Row(
-                children: const [
+                children: [
                   CircleAvatar(
                     backgroundImage: AssetImage('assest/images/7.jpeg'),
                   ),
@@ -304,14 +304,14 @@ class YoutubeUiDemo extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Column(
-              children: const [
+            const Column(
+              children: [
                 Icon(Icons.home),
                 Text('Home'),
               ],
             ),
-            Column(
-              children: const [
+            const Column(
+              children: [
                 Icon(Icons.play_circle),
                 Text('Shorts'),
               ],
@@ -333,9 +333,9 @@ class YoutubeUiDemo extends StatelessWidget {
                           borderRadius: BorderRadius.all(Radius.circular(50))),
                       child: Column(
                         children: [
-                          Row(
+                          const Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: const [
+                            children: [
                               Padding(
                                 padding: EdgeInsets.only(left: 30),
                                 child: Text(
@@ -377,14 +377,14 @@ class YoutubeUiDemo extends StatelessWidget {
               },
               icon: const Icon(Icons.add),
             ),
-            Column(
-              children: const [
+            const Column(
+              children: [
                 Icon(Icons.shop),
                 Text('Subscriptions'),
               ],
             ),
-            Column(
-              children: const [
+            const Column(
+              children: [
                 Icon(Icons.shop),
                 Text('Library'),
               ],

@@ -3,10 +3,11 @@ import 'package:flutter_application_3/listofmap_demo.dart/user_model.dart';
 
 List<Map> whatsapp = [
   {
-    'url': 'assest/images/8.jpeg',
+    'url': 'assest/images/25.jpeg',
     'name': 'hardik',
     'time': '8.54 pm',
     'message': 'hello',
+    'times': 'today 4.48',
     'icons': Icons.call,
   },
   {
@@ -14,6 +15,7 @@ List<Map> whatsapp = [
     'name': 'piyush',
     'time': '5.65 pm',
     'message': 'hiii',
+    'times': 'today 2.45 am',
     'icons': Icons.call,
   },
   {
@@ -21,6 +23,7 @@ List<Map> whatsapp = [
     'name': 'mithan',
     'time': '4.00 am',
     'message': 'hello',
+    'times': 'today 1.35 am',
     'icons': Icons.video_call,
   },
   {
@@ -28,6 +31,7 @@ List<Map> whatsapp = [
     'name': 'amit',
     'time': '2.30 pm',
     'message': 'hello',
+    'times': '4 minutes ago',
     'icons': Icons.call,
   },
   {
@@ -35,6 +39,7 @@ List<Map> whatsapp = [
     'name': 'ankit',
     'time': '2.55 am',
     'message': 'hiii',
+    'times': 'justNow',
     'icons': Icons.call,
   },
   {
@@ -42,6 +47,7 @@ List<Map> whatsapp = [
     'name': 'aps',
     'time': '2.55 am',
     'message': 'hiii',
+    'times': 'today 5.01 am',
     'icons': Icons.video_call,
   },
   {
@@ -49,27 +55,31 @@ List<Map> whatsapp = [
     'name': 'ankita',
     'time': '2.55 am',
     'message': 'hiii',
+    'times': 'today 10.20 am',
+    'icons': Icons.call,
+  },
+  {
+    'url': 'assest/images/5.jpeg',
+    'name': 'pratik',
+    'time': '2.55 am',
+    'message': 'hiii',
+    'times': 'today 12.21 pm',
     'icons': Icons.call,
   },
   {
     'url': 'assest/images/12.jpeg',
-    'name': 'vijay',
+    'name': 'hiren',
     'time': '2.55 am',
     'message': 'hiii',
+    'times': 'today 9.24 am',
     'icons': Icons.call,
   },
   {
     'url': 'assest/images/12.jpeg',
-    'name': 'vijay',
+    'name': 'vishal',
     'time': '2.55 am',
     'message': 'hiii',
-    'icons': Icons.call,
-  },
-  {
-    'url': 'assest/images/12.jpeg',
-    'name': 'vijay',
-    'time': '2.55 am',
-    'message': 'hiii',
+    'times': 'today 2.45 am',
     'icons': Icons.call,
   },
 ];
@@ -490,3 +500,388 @@ List<Map> grideData = [
     'name': 'account circle',
   },
 ];
+List<Map<String, dynamic>> pageViewData = [
+  {
+    'url': 'assest/images/3.jpeg',
+  },
+  {
+    'url': 'assest/images/4.jpeg',
+  },
+  {
+    'url': 'assest/images/5.jpeg',
+  },
+  {
+    'url': 'assest/images/6.jpeg',
+  },
+  {
+    'url': 'assest/images/7.jpeg',
+  },
+  {
+    'url': 'assest/images/8.jpeg',
+  },
+  {
+    'url': 'assest/images/9.jpeg',
+  },
+  {
+    'url': 'assest/images/10.jpeg',
+  },
+  {
+    'url': 'assest/images/11.jpeg',
+  },
+];
+List<Map<String, dynamic>> instaData = [
+  {
+    'url': 'assest/images/3.jpeg',
+  },
+  {
+    'url': 'assest/images/4.jpeg',
+  },
+  {
+    'url': 'assest/images/5.jpeg',
+  },
+  {
+    'url': 'assest/images/6.jpeg',
+  },
+  {
+    'url': 'assest/images/7.jpeg',
+  },
+  {
+    'url': 'assest/images/8.jpeg',
+  },
+  {
+    'url': 'assest/images/9.jpeg',
+  },
+  {
+    'url': 'assest/images/14.jpeg',
+  },
+  {
+    'url': 'assest/images/21.jpeg',
+  },
+  {
+    'url': 'assest/images/22.jpeg',
+  },
+  {
+    'url': 'assest/images/23.jpeg',
+  },
+  {
+    'url': 'assest/images/24.jpeg',
+  },
+  {
+    'url': 'assest/images/25.jpeg',
+  },
+  {
+    'url': 'assest/images/26.jpeg',
+  },
+  {
+    'url': 'assest/images/27.jpeg',
+  },
+  {
+    'url': 'assest/images/28.jpeg',
+  },
+  {
+    'url': 'assest/images/29.jpeg',
+  },
+  {
+    'url': 'assest/images/30.jpeg',
+  },
+];
+List<Map<String, dynamic>> youtubData = [
+  {
+    'title': 'home',
+    'icon': Icons.home,
+  },
+  {
+    'title': 'shorts',
+    'icon': Icons.camera,
+  },
+  {
+    'title': '',
+    'icon': Icons.add,
+  },
+  {
+    'title': 'subscription',
+    'icon': Icons.subscriptions,
+  },
+  {
+    'title': 'library',
+    'icon': Icons.library_add,
+  },
+];
+
+List<Map<String, dynamic>> imageData = [
+  {
+    'url': 'assest/images/3.jpeg',
+    'title': 'Live:video',
+  },
+  {
+    'url': 'assest/images/4.jpeg',
+    'title': 'Food Channel',
+  },
+  {
+    'url': 'assest/images/5.jpeg',
+    'title': 'Dubai Hotel',
+  },
+  {
+    'url': 'assest/images/6.jpeg',
+    'title': 'image Channle',
+  },
+];
+
+final List<String> optionLists = [
+  'All',
+  'Music',
+  'Rain',
+  'Bhajan music',
+  'live',
+  'Comedy',
+  'Computer',
+  'Cricket',
+  'Recently uploaded',
+];
+final List<Map> youtubeNavigationData = [
+  {
+    'title': 'home',
+    'icon': Icons.home,
+  },
+  {
+    'title': 'shots',
+    'icon': Icons.shop_rounded,
+  },
+  {
+    'title': '',
+    'icon': Icons.add,
+  },
+  {
+    'title': 'subcriptions',
+    'icon': Icons.subscriptions,
+  },
+  {
+    'title': 'Liabary',
+    'icon': Icons.library_add,
+  }
+];
+
+final List<Map<String, dynamic>> youtubeBottomSheetDetails = [
+  {
+    'icon': Icons.sports_esports_outlined,
+    'iconName': 'Create a Short',
+  },
+  {
+    'icon': Icons.upload,
+    'iconName': 'Upload a video',
+  },
+  {
+    'icon': Icons.live_tv_outlined,
+    'iconName': 'Go live',
+  },
+  {
+    'icon': Icons.post_add,
+    'iconName': 'Create a post',
+  },
+];
+List<YoutubeBottomSheet> youtubeAppData = [];
+
+final List<Map<String, dynamic>> youtubDetails = [
+  {
+    'icon': Icons.person_pin_outlined,
+    'iconName': 'Your channel',
+  },
+  {
+    'icon': Icons.perm_contact_cal_sharp,
+    'iconName': 'Tuen on Incognito',
+  },
+  {
+    'icon': Icons.person_add_outlined,
+    'iconName': 'Add account',
+  },
+  {},
+  {
+    'icon': Icons.workspace_premium_outlined,
+    'iconName': 'Get YouTube Premium',
+  },
+  {
+    'icon': Icons.attach_money,
+    'iconName': 'Purchases and memberships',
+  },
+  {
+    'icon': Icons.av_timer,
+    'iconName': 'Time watched',
+  },
+  {
+    'icon': Icons.person_pin_circle,
+    'iconName': 'Your data in YouTube',
+  },
+  {},
+  {
+    'icon': Icons.settings,
+    'iconName': 'Settings',
+  },
+  {
+    'icon': Icons.help_outline_outlined,
+    'iconName': 'Help & feedback',
+  },
+  {},
+  {
+    'icon': Icons.spatial_audio_off,
+    'iconName': 'YouTube Studio',
+  },
+  {
+    'icon': Icons.music_note_outlined,
+    'iconName': 'YouTube Music',
+  },
+  {
+    'icon': Icons.kitesurfing_rounded,
+    'iconName': 'YouTube Kids',
+  },
+];
+List<YoutubeEndDrawerBottomSheet> youtubeEnddrawerData = [];
+
+final List<Map<String, dynamic>> youtubeShortsHomeApi = [
+  {
+    'url': 'assest/images/21.jpeg',
+    'subName': 'Eiffel Tower \n sparkling⭐',
+    'views': '65k',
+  },
+  {
+    'url': 'assest/images/22.jpeg',
+    'subName': 'Rome tour \n Italy 2023',
+    'views': '6.5M',
+  },
+  {
+    'url': 'assest/images/24.jpeg',
+    'subName': 'Spain Travel \n Best Place',
+    'views': '45k',
+  },
+  {
+    'url': 'assest/images/24.jpeg',
+    'subName': 'Holiday in Bali \n visit in Bali',
+    'views': '779k',
+  },
+  {
+    'url': 'assest/images/25.jpeg',
+    'subName': '5 place to visit \n in Spain 2021',
+    'views': '51k',
+  },
+  {
+    'url': 'assest/images/21.jpeg',
+    'subName': 'Eiffel Tower \n Tour⭐',
+    'views': '48k',
+  },
+];
+List<YoutubeShortsHomeDetail> youtubeShortsHomeData = [];
+
+final List<Map<String, dynamic>> youtubeHomePageApi = [
+  {
+    'videoProfile': 'assest/images/26.jpeg',
+    'videoTime': '9:09',
+    'acProfile': 'assest/images/3.jpeg',
+    'subName':
+        'Is  this  most  beautiful  building  in  the \n world? - Stephanie  Honchell  Smith',
+    'channelName': 'TED_Ed - ',
+    'views': '506k views - ',
+    'durationTime': '6 months ago',
+  },
+  {
+    'videoProfile': 'assest/images/21.jpeg',
+    'videoTime': '8:05',
+    'acProfile': 'assest/images/4.jpeg',
+    'subName':
+        'EIFFEL  TOWER  AT  NIGHT, Paris  France \n Eiffel  Tower  sparkling  &  twinkling  at  ni...',
+    'channelName': 'Jean_ Luc Ichard - ',
+    'views': '1.1M views - ',
+    'durationTime': '5 years ago',
+  },
+];
+List<YoutubeHomePageDetail> youtubeHomePageData = [];
+
+final List<Map<String, dynamic>> shortsReelList = [
+  {
+    'ac profile': 'assest/images/21.jpeg',
+    'url': 'assest/images/21.jpeg',
+    'name': 'hardik patel',
+    'contain':
+        'EIFFEL  TOWER  AT  NIGHT, Paris  France \n Eiffel  Tower  sparkling  &  twinkling  at',
+  },
+  {
+    'ac profile': 'assest/images/22.jpeg',
+    'url': 'assest/images/24.jpeg',
+    'name': 'hardik suvagiya',
+    'contain': 'Rome tour \n Italy 2023',
+  },
+  {
+    'ac profile': 'assest/images/23.jpeg',
+    'url': 'assest/images/23.jpeg',
+    'name': 'mintan lathiya',
+    'contain': 'Spain Travel \n Best Place',
+  },
+  {
+    'ac profile': 'assest/images/3.jpeg',
+    'url': 'assest/images/24.jpeg',
+    'name': 'piyush suvagiya',
+    'contain': 'Holiday in U.S.A \n visit in U.S.A',
+  },
+  {
+    'ac profile': 'assest/images/4.jpeg',
+    'url': 'assest/images/25.jpeg',
+    'name': 'amit bhadani',
+    'contain': '5 place to visit \n in Spain 2021',
+  },
+  {
+    'ac profile': 'assest/images/5.jpeg',
+    'url': 'assest/images/26.jpeg',
+    'name': 'ankit',
+    'contain':
+        'Is  this  most  beautiful  building  in  the \n world? - Stephanie  Honchell  Smith',
+  },
+  {
+    'ac profile': 'assest/images/27.jpeg',
+    'url': 'assest/images/27.jpeg',
+    'name': 'mehul',
+    'contain': 'best travel',
+  },
+  {
+    'ac profile': 'assest/images/28.jpeg',
+    'url': 'assest/images/28.jpeg',
+    'name': 'mukesh',
+    'contain': 'Is  this  most  beautiful  building  in  the \n world',
+  },
+];
+
+List<Shorts> shortData = [];
+
+final List<Map<String, dynamic>> subscribeChannelList = [
+  {
+    'url': 'assest/images/24.jpeg',
+    'channelName': 'Baaba',
+  },
+  {
+    'url': 'assest/images/22.jpeg',
+    'channelName': 'Perfect ...',
+  },
+  {
+    'url': 'assest/images/3.jpeg',
+    'channelName': 'Prakash',
+  },
+  {
+    'url': 'assest/images/27.jpeg',
+    'channelName': 'Vivek Ba...',
+  },
+  {
+    'url': 'assest/images/17.jpeg',
+    'channelName': 'WsCutbe',
+  },
+  {
+    'url': 'assest/images/5.jpeg',
+    'channelName': 'Techie H...',
+  },
+  {
+    'url': 'assest/images/4.jpeg',
+    'channelName': 'Geeky S...',
+  },
+  {
+    'url': 'assest/images/3.jpeg',
+    'channelName': 'Vijay ked...',
+  }
+];
+
+List<SubscribeDetail> subscribeChannelData = [];

@@ -16,13 +16,13 @@ class _TicTacToeDemoState extends State<TicTacUiDemo> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            Padding(
-              padding: const EdgeInsets.all(14.0),
+            const Padding(
+              padding: EdgeInsets.all(14.0),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                   Column(
-                    children: const [
+                    children: [
                       Text(
                         'Player 1',
                         style: TextStyle(
@@ -38,7 +38,7 @@ class _TicTacToeDemoState extends State<TicTacUiDemo> {
                     ],
                   ),
                   Column(
-                    children: const [
+                    children: [
                       Text(
                         'Player 2',
                         style: TextStyle(
@@ -94,7 +94,7 @@ class _TicTacToeDemoState extends State<TicTacUiDemo> {
                 },
               ),
             ),
-            Expanded(
+            const Expanded(
               flex: 1,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,

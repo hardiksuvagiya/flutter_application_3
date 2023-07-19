@@ -24,10 +24,10 @@ class DrawerUiDemo extends StatelessWidget {
               const Divider(
                 thickness: 3,
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
                 child: Row(
-                  children: const [
+                  children: [
                     Icon(
                       Icons.all_inbox,
                       size: 35,
@@ -50,10 +50,10 @@ class DrawerUiDemo extends StatelessWidget {
               const Divider(
                 thickness: 3,
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
                 child: Row(
-                  children: const [
+                  children: [
                     Icon(
                       Icons.inbox,
                       size: 35,
@@ -114,10 +114,10 @@ class DrawerUiDemo extends StatelessWidget {
                   ],
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
                 child: Row(
-                  children: const [
+                  children: [
                     Icon(
                       Icons.group,
                       size: 35,
@@ -135,10 +135,10 @@ class DrawerUiDemo extends StatelessWidget {
                   ],
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
                 child: Row(
-                  children: const [
+                  children: [
                     Text(
                       'All labels',
                       style: TextStyle(
@@ -148,10 +148,10 @@ class DrawerUiDemo extends StatelessWidget {
                   ],
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
                 child: Row(
-                  children: const [
+                  children: [
                     Icon(
                       Icons.star,
                       size: 35,
@@ -179,10 +179,10 @@ class DrawerUiDemo extends StatelessWidget {
                   ],
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
                 child: Row(
-                  children: const [
+                  children: [
                     Icon(
                       Icons.alarm,
                       size: 35,
@@ -200,10 +200,10 @@ class DrawerUiDemo extends StatelessWidget {
                   ],
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
                 child: Row(
-                  children: const [
+                  children: [
                     Icon(
                       Icons.label,
                       size: 35,
@@ -231,10 +231,10 @@ class DrawerUiDemo extends StatelessWidget {
                   ],
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
                 child: Row(
-                  children: const [
+                  children: [
                     Icon(
                       Icons.send,
                       size: 35,
@@ -252,10 +252,10 @@ class DrawerUiDemo extends StatelessWidget {
                   ],
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
                 child: Row(
-                  children: const [
+                  children: [
                     Icon(
                       Icons.send_and_archive,
                       size: 35,
@@ -273,10 +273,10 @@ class DrawerUiDemo extends StatelessWidget {
                   ],
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
                 child: Row(
-                  children: const [
+                  children: [
                     Icon(
                       Icons.outbox,
                       size: 35,
@@ -294,10 +294,10 @@ class DrawerUiDemo extends StatelessWidget {
                   ],
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
                 child: Row(
-                  children: const [
+                  children: [
                     Icon(
                       Icons.drafts,
                       size: 35,
@@ -315,10 +315,10 @@ class DrawerUiDemo extends StatelessWidget {
                   ],
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
                 child: Row(
-                  children: const [
+                  children: [
                     Icon(
                       Icons.all_inbox,
                       size: 35,
@@ -336,10 +336,10 @@ class DrawerUiDemo extends StatelessWidget {
                   ],
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
                 child: Row(
-                  children: const [
+                  children: [
                     Icon(
                       Icons.hexagon,
                       size: 35,
@@ -357,10 +357,10 @@ class DrawerUiDemo extends StatelessWidget {
                   ],
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
                 child: Row(
-                  children: const [
+                  children: [
                     Icon(
                       Icons.recycling,
                       size: 35,
@@ -378,10 +378,10 @@ class DrawerUiDemo extends StatelessWidget {
                   ],
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.only(top: 10, left: 10),
+              const Padding(
+                padding: EdgeInsets.only(top: 10, left: 10),
                 child: Row(
-                  children: const [
+                  children: [
                     Text(
                       'Google apps',
                       style: TextStyle(
@@ -392,10 +392,10 @@ class DrawerUiDemo extends StatelessWidget {
                   ],
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
                 child: Row(
-                  children: const [
+                  children: [
                     Icon(
                       Icons.calendar_month,
                       size: 35,
@@ -413,10 +413,10 @@ class DrawerUiDemo extends StatelessWidget {
                   ],
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
                 child: Row(
-                  children: const [
+                  children: [
                     Icon(
                       Icons.contact_page,
                       size: 35,
@@ -437,10 +437,10 @@ class DrawerUiDemo extends StatelessWidget {
               const Divider(
                 thickness: 5,
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
                 child: Row(
-                  children: const [
+                  children: [
                     Icon(
                       Icons.settings,
                       size: 35,
@@ -458,10 +458,10 @@ class DrawerUiDemo extends StatelessWidget {
                   ],
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
                 child: Row(
-                  children: const [
+                  children: [
                     Icon(
                       Icons.help,
                       size: 35,

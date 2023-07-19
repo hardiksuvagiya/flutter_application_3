@@ -45,12 +45,12 @@ class GenderFormDemoState extends State<GenderFormDemo> {
                     color: OnSubmit.selectedGender == 'male'
                         ? Colors.blue
                         : Colors.white,
-                    child: SizedBox(
+                    child: const SizedBox(
                       height: 60,
                       width: 60,
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
-                        children: const [
+                        children: [
                           Icon(
                             Icons.male,
                           ),
@@ -75,12 +75,12 @@ class GenderFormDemoState extends State<GenderFormDemo> {
                     color: OnSubmit.selectedGender == 'female'
                         ? Colors.blue
                         : Colors.white,
-                    child: SizedBox(
+                    child: const SizedBox(
                       height: 60,
                       width: 60,
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
-                        children: const [
+                        children: [
                           Icon(
                             Icons.female,
                           ),
@@ -115,12 +115,12 @@ class GenderFormDemoState extends State<GenderFormDemo> {
                   child: Card(
                     elevation: 35,
                     color: OnSubmit.isCricket ? Colors.cyan : Colors.white,
-                    child: SizedBox(
+                    child: const SizedBox(
                       height: 60,
                       width: 60,
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
-                        children: const [
+                        children: [
                           Icon(
                             Icons.sports_cricket,
                           ),
@@ -143,12 +143,12 @@ class GenderFormDemoState extends State<GenderFormDemo> {
                   child: Card(
                     elevation: 40,
                     color: OnSubmit.isFootball ? Colors.cyan : Colors.white,
-                    child: SizedBox(
+                    child: const SizedBox(
                       height: 60,
                       width: 60,
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
-                        children: const [
+                        children: [
                           Icon(
                             Icons.sports_football,
                           ),
@@ -171,12 +171,12 @@ class GenderFormDemoState extends State<GenderFormDemo> {
                   child: Card(
                     elevation: 40,
                     color: OnSubmit.isGaming ? Colors.cyan : Colors.white,
-                    child: SizedBox(
+                    child: const SizedBox(
                       height: 60,
                       width: 60,
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
-                        children: const [
+                        children: [
                           Icon(
                             Icons.sports_esports,
                           ),
@@ -199,12 +199,12 @@ class GenderFormDemoState extends State<GenderFormDemo> {
                   child: Card(
                     elevation: 40,
                     color: OnSubmit.isBaseball ? Colors.cyan : Colors.white,
-                    child: SizedBox(
+                    child: const SizedBox(
                       height: 60,
                       width: 60,
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
-                        children: const [
+                        children: [
                           Icon(
                             Icons.sports_baseball_sharp,
                           ),
@@ -227,12 +227,12 @@ class GenderFormDemoState extends State<GenderFormDemo> {
                   child: Card(
                     elevation: 40,
                     color: OnSubmit.isCooking ? Colors.cyan : Colors.white,
-                    child: SizedBox(
+                    child: const SizedBox(
                       height: 60,
                       width: 60,
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
-                        children: const [
+                        children: [
                           Icon(
                             Icons.cookie,
                           ),
@@ -258,6 +258,7 @@ class GenderFormDemoState extends State<GenderFormDemo> {
                     onPressed: () {
                       OnSubmit().hobbies();
                       OnSubmit.isSubmited = !OnSubmit.isSubmited;
+
                       setState(() {});
                     },
                     child: const Text(
@@ -273,7 +274,7 @@ class GenderFormDemoState extends State<GenderFormDemo> {
                   ? Container(
                       padding: const EdgeInsets.all(30),
                       alignment: Alignment.center,
-                      color: Colors.white,
+                      color: Colors.transparent,
                       child: ListView.builder(
                         itemCount: 1,
                         itemBuilder: (context, index) => Text(

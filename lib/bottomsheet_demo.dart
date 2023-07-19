@@ -25,11 +25,11 @@ class BottomSheetDemo extends StatelessWidget {
                 decoration: const BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.all(Radius.circular(50))),
-                child: Column(
+                child: const Column(
                   children: [
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: const [
+                      children: [
                         Padding(
                           padding: EdgeInsets.only(left: 30),
                           child: Text(
@@ -49,10 +49,10 @@ class BottomSheetDemo extends StatelessWidget {
                       ],
                     ),
                     Padding(
-                      padding: const EdgeInsets.only(top: 20),
+                      padding: EdgeInsets.only(top: 20),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.start,
-                        children: const [
+                        children: [
                           CircleAvatar(
                             backgroundColor: Colors.black38,
                             radius: 30,
@@ -71,9 +71,9 @@ class BottomSheetDemo extends StatelessWidget {
                       ),
                     ),
                     Padding(
-                      padding: const EdgeInsets.only(top: 30),
+                      padding: EdgeInsets.only(top: 30),
                       child: Row(
-                        children: const [
+                        children: [
                           CircleAvatar(
                             backgroundColor: Colors.black38,
                             radius: 30,
@@ -95,9 +95,9 @@ class BottomSheetDemo extends StatelessWidget {
                       ),
                     ),
                     Padding(
-                      padding: const EdgeInsets.only(top: 30),
+                      padding: EdgeInsets.only(top: 30),
                       child: Row(
-                        children: const [
+                        children: [
                           CircleAvatar(
                             backgroundColor: Colors.black38,
                             radius: 30,

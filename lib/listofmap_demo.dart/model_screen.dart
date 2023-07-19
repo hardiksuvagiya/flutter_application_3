@@ -35,13 +35,13 @@ class ModelScreenDemo extends StatelessWidget {
             Icons.more_vert,
           ),
         ],
-        bottom: PreferredSize(
-          preferredSize: const Size(double.infinity, 70),
+        bottom: const PreferredSize(
+          preferredSize: Size(double.infinity, 70),
           child: Padding(
-            padding: const EdgeInsets.all(10),
+            padding: EdgeInsets.all(10),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: const [
+              children: [
                 Icon(
                   Icons.group,
                   size: 40,

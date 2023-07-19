@@ -9,8 +9,8 @@ class InstaModdelDemo extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          Row(
-            children: const [
+          const Row(
+            children: [
               Text('Instagram',
                   style: TextStyle(
                     fontSize: 30,
@@ -60,8 +60,8 @@ class InstaModdelDemo extends StatelessWidget {
                 children: [
                   Column(
                     children: [
-                      Row(
-                        children: const [
+                      const Row(
+                        children: [
                           CircleAvatar(
                             backgroundImage: AssetImage('assest/images/5.jpeg'),
                           ),
@@ -85,8 +85,8 @@ class InstaModdelDemo extends StatelessWidget {
                           ),
                         ),
                       ),
-                      Row(
-                        children: const [
+                      const Row(
+                        children: [
                           Icon(Icons.favorite),
                           Icon(Icons.message),
                           Icon(Icons.share),
@@ -94,10 +94,10 @@ class InstaModdelDemo extends StatelessWidget {
                           Icon(Icons.save),
                         ],
                       ),
-                      Row(
+                      const Row(
                         children: [
                           Column(
-                            children: const [
+                            children: [
                               Text(
                                 '34  liks',
                                 style: TextStyle(
@@ -117,8 +117,8 @@ class InstaModdelDemo extends StatelessWidget {
                           ),
                         ],
                       ),
-                      Row(
-                        children: const [
+                      const Row(
+                        children: [
                           CircleAvatar(
                             backgroundImage: AssetImage('assest/images/9.jpeg'),
                           ),
@@ -141,8 +141,8 @@ class InstaModdelDemo extends StatelessWidget {
                           fit: BoxFit.cover,
                         )),
                       ),
-                      Row(
-                        children: const [
+                      const Row(
+                        children: [
                           Icon(Icons.favorite),
                           Icon(Icons.message),
                           Icon(Icons.share),
@@ -150,10 +150,10 @@ class InstaModdelDemo extends StatelessWidget {
                           Icon(Icons.save),
                         ],
                       ),
-                      Row(
+                      const Row(
                         children: [
                           Column(
-                            children: const [
+                            children: [
                               Text(
                                 '250  liks',
                                 style: TextStyle(
@@ -173,8 +173,8 @@ class InstaModdelDemo extends StatelessWidget {
                           ),
                         ],
                       ),
-                      Row(
-                        children: const [
+                      const Row(
+                        children: [
                           CircleAvatar(
                             backgroundImage:
                                 AssetImage('assest/images/21.jpeg'),
@@ -198,8 +198,8 @@ class InstaModdelDemo extends StatelessWidget {
                           fit: BoxFit.cover,
                         )),
                       ),
-                      Row(
-                        children: const [
+                      const Row(
+                        children: [
                           Icon(Icons.favorite),
                           Icon(Icons.message),
                           Icon(Icons.share),
@@ -207,10 +207,10 @@ class InstaModdelDemo extends StatelessWidget {
                           Icon(Icons.save),
                         ],
                       ),
-                      Row(
+                      const Row(
                         children: [
                           Column(
-                            children: const [
+                            children: [
                               Text(
                                 '25  liks',
                                 style: TextStyle(

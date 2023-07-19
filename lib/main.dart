@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_3/statefulwiget_demo.dart/gender_form_demo.dart';
+import 'package:flutter_application_3/my_custom_animatied_wight_ui.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: GenderFormDemo(),
+      home: MyCustomAnimatedUiDemo(),
     );
   }
 }

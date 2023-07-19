@@ -34,11 +34,11 @@ class ManageUiDemo extends StatelessWidget {
               ],
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.all(10),
+          const Padding(
+            padding: EdgeInsets.all(10),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: const [
+              children: [
                 Icon(
                   Icons.arrow_back,
                 ),
@@ -71,9 +71,9 @@ class ManageUiDemo extends StatelessWidget {
                       color: Colors.deepPurple,
                       borderRadius: BorderRadius.all(Radius.circular(40)),
                     ),
-                    child: Column(
+                    child: const Column(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: const [
+                      children: [
                         Text(
                           '12',
                           style: TextStyle(
@@ -99,9 +99,9 @@ class ManageUiDemo extends StatelessWidget {
                       color: Colors.white,
                       borderRadius: BorderRadius.all(Radius.circular(40)),
                     ),
-                    child: Column(
+                    child: const Column(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: const [
+                      children: [
                         Text(
                           '13',
                           style: TextStyle(
@@ -121,9 +121,9 @@ class ManageUiDemo extends StatelessWidget {
                       color: Colors.white,
                       borderRadius: BorderRadius.all(Radius.circular(40)),
                     ),
-                    child: Column(
+                    child: const Column(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: const [
+                      children: [
                         Text(
                           '14',
                           style: TextStyle(
@@ -143,9 +143,9 @@ class ManageUiDemo extends StatelessWidget {
                       color: Colors.white,
                       borderRadius: BorderRadius.all(Radius.circular(40)),
                     ),
-                    child: Column(
+                    child: const Column(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: const [
+                      children: [
                         Text(
                           '15',
                           style: TextStyle(
@@ -174,8 +174,8 @@ class ManageUiDemo extends StatelessWidget {
           ),
           Row(
             children: [
-              Column(
-                children: const [
+              const Column(
+                children: [
                   Padding(
                     padding: EdgeInsets.all(10),
                     child: Text(
@@ -198,9 +198,9 @@ class ManageUiDemo extends StatelessWidget {
                 ),
                 child: Column(
                   children: [
-                    Row(
+                    const Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      children: const [
+                      children: [
                         Text(
                           'Mobile App Design',
                           style: TextStyle(
@@ -211,9 +211,9 @@ class ManageUiDemo extends StatelessWidget {
                         ),
                       ],
                     ),
-                    Row(
+                    const Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      children: const [
+                      children: [
                         Text(
                           'Mike and anita',
                           style: TextStyle(
@@ -273,10 +273,10 @@ class ManageUiDemo extends StatelessWidget {
               ),
             ],
           ),
-          Padding(
-            padding: const EdgeInsets.only(top: 10, bottom: 35, left: 10),
+          const Padding(
+            padding: EdgeInsets.only(top: 10, bottom: 35, left: 10),
             child: Row(
-              children: const [
+              children: [
                 Text(
                   '10AM',
                 ),
@@ -297,10 +297,10 @@ class ManageUiDemo extends StatelessWidget {
           ),
           Row(
             children: [
-              Padding(
-                padding: const EdgeInsets.only(bottom: 50),
+              const Padding(
+                padding: EdgeInsets.only(bottom: 50),
                 child: Column(
-                  children: const [
+                  children: [
                     Padding(
                       padding: EdgeInsets.all(10),
                       child: Text(
@@ -374,9 +374,9 @@ class ManageUiDemo extends StatelessWidget {
                             ),
                           ],
                         ),
-                        Row(
+                        const Row(
                           mainAxisAlignment: MainAxisAlignment.end,
-                          children: const [
+                          children: [
                             Padding(
                               padding: EdgeInsets.only(left: 70),
                               child: Text(
@@ -397,8 +397,8 @@ class ManageUiDemo extends StatelessWidget {
           ),
           Row(
             children: [
-              Column(
-                children: const [
+              const Column(
+                children: [
                   Padding(
                     padding: EdgeInsets.all(10),
                     child: Text(
@@ -467,9 +467,9 @@ class ManageUiDemo extends StatelessWidget {
                                         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTUmVbAgTsvPyvBy9PXgBkcjUCSTafz1aJqw&usqp=CAU')),
                               ),
                             ),
-                            Row(
+                            const Row(
                               mainAxisAlignment: MainAxisAlignment.end,
-                              children: const [
+                              children: [
                                 Padding(
                                   padding: EdgeInsets.only(left: 150, top: 20),
                                   child: Text(

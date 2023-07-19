@@ -12,6 +12,7 @@ class OnSubmit {
   static bool isCooking = false;
   static List<String> selectedHobbies = [];
   static bool isSubmited = false;
+  static bool color = true;
 
   void hobbies() {
     if (isCricket) {
@@ -29,11 +30,27 @@ class OnSubmit {
     if (isCooking) {
       selectedHobbies.add('Cooking');
     }
+
+    if (isSubmited == true) {
+      selectedHobbies.clear();
+      isCricket = false;
+      isBaseball = false;
+      isCooking = false;
+      isFootball = false;
+      isGaming = false;
+      isSubmited = true;
+      selectedGender = '';
+    }
   }
 
   void onSubmitClear() {
     if (isSubmited == false) {
       selectedHobbies.clear();
+      isCricket = false;
+      isBaseball = false;
+      isCooking = false;
+      isFootball = false;
+      isGaming = false;
     }
   }
 }
